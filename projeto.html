@@ -4,14 +4,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="estilos.css" /> 
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/estilos.css" /> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
 </head>
 <body>
+  <header class ="page-header">
+    <p class= "name"> BuzzQuizz </p>
+  </header>
+  <main class="main-content">
+      <div class="upper-box">
+        <div class = "first-line">
+          <p class= "noquizzyet"> Você não criou nenhum quizz ainda :( </p>
+        </div>
+        <button class="create-quizz" data-identifier="create-quizz">
+          <p class= "creating-quizz">Criar Quizz</p>
+        </button>
+      </div>
+      <div class="all-quizzes">
+        <p class="first-title">Todos os Quizzes</p>
+      </div>
+  </main>
+  
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>    
     <script src="scripts.js"> </script>
