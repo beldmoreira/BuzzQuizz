@@ -30,6 +30,9 @@ body{
     padding-top: 13px;
 }
 .main-content{
+    width: 100%;
+}
+.main-screen{
     margin-left: 194px;
 }
 .upper-box{
