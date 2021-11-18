@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -9,6 +11,7 @@ body{
     width: 1440px;
     background-color: #EC362D;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position:sticky;
 }
 
 .name {
@@ -71,14 +74,44 @@ body{
     text-align: center;
     color: #EC362D;
 }
-.all-quizzes{
+.title{
     margin-top: 77px;
+    color: #000000;
 }
-.first-title{
+.all-quizzes{
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 23px;
     letter-spacing: 0em;
-    color: #000000;
+    
+}
+.your-quizzes{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.add-vector{
+    height: 30px;
+    width: 31px;
+    border-radius:500px; 
+    background-color:#EC362D;
+}
+.quizzes{
+    display:flex;
+    flex-wrap: nowrap;
+}
+.quizz{
+    margin-top:12px;
+    margin-right: 15px;
+    height: 181px;
+    width: 340px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 64.58%, #000000 100%);
+}
+.footer{
+    height:211px;
 }
